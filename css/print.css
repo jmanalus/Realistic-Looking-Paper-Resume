@@ -1,0 +1,40 @@
+#wrapper {
+overflow: hidden;
+page-break-after: avoid;
+}
+body {
+font: 14px Times New Roman, Serif;
+line-height: 16px;
+overflow: hidden;
+}
+h1 {
+margin: 0 0 16px 0;
+padding: 0 0 16px 0;
+font-size: 42px;
+font-weight: bold;
+letter-spacing: -2px;
+border-bottom: 1px solid #999;
+page-break-after: avoid;
+}
+h2 {
+font-size: 17px;
+margin: 0 0 6px 0;
+position: relative;
+page-break-after: avoid;
+}
+p {
+margin: 0 0 16px 0;
+}
+a {
+color: #999;
+text-decoration: none;
+}
+a:hover {
+border-bottom-style: solid;
+color: black;
+}
+ul {
+margin: 0 0 32px 17px;
+}
+a:link:after, a:visited:after {
+content: " [" attr(href) "] ";
